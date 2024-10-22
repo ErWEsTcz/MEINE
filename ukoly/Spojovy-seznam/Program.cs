@@ -30,7 +30,7 @@ namespace Spojovy_seznam
         {
             public Node Head { get; set; }
 
-            public void Add(int value) // přidat objekt do seznamu
+            public void Add(int value) // přidat objekt do seznamu // O(1)
             {
                 if (Head == null) // když je seznam prázdný
                 {
@@ -45,7 +45,7 @@ namespace Spojovy_seznam
             }
 
 
-            public bool Find(int value)
+            public bool Find(int value) // O(n)
             {
                 Node node = Head;
 
@@ -60,7 +60,7 @@ namespace Spojovy_seznam
                 return false;
             }
 
-            public void FindMinimum()
+            public void FindMinimum() // O(n)
             {
                 Node node = Head;
 
