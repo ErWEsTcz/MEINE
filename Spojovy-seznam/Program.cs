@@ -11,7 +11,6 @@ namespace Spojovy_seznam
     {
         static void Main(string[] args)
         {
-            Node uzlik = new Node(8);
 
         }
 
@@ -56,14 +55,20 @@ namespace Spojovy_seznam
                     {
                         return true;
                     }
-                node = node.Next;
+                    node = node.Next;
                 }
                 return false;
             }
 
-            public int FindMinimum()
+            public void FindMinimum()
             {
                 Node node = Head;
+
+                if (Head == null)
+                {
+                    Console.WriteLine("List je prázdný xD");
+                    return;
+                }
 
                 int Minimum = Head.Next.Value;
 
@@ -75,7 +80,7 @@ namespace Spojovy_seznam
                     }
                     node = node.Next;
                 }
-                return Minimum;
+                Console.WriteLine(Minimum);
             }
         }
     }
