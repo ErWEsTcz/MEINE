@@ -17,8 +17,22 @@ namespace Spojovy_seznam
             idk.Add(8);
             idk.Add(4);
             idk.Add(10);
+            idk.Add(2);
+
+            LinkedList kekw = new LinkedList();
+            kekw.Add(1);
+            kekw.Add(8);
+            kekw.Add(9);
+            kekw.Add(15);
+            kekw.Add(2);
+
+            LinkedList poggers = new LinkedList();
 
             idk.PrintLinkedList();
+            Console.WriteLine(); 
+            idk.SortLinkedList();
+            idk.PrintLinkedList();
+            idk.DestructiveUnification(kekw);
             idk.SortLinkedList();
             Console.WriteLine();
             idk.PrintLinkedList();
@@ -102,6 +116,9 @@ namespace Spojovy_seznam
             {
                 Node node = Head;
 
+                if (node == null)
+                    Console.WriteLine("list je prázdný");
+
                 while (node != null) // dokud nedojedeme na konec seznamu
                 {
                     Console.WriteLine(node.Value);
@@ -109,7 +126,7 @@ namespace Spojovy_seznam
                 }
             }
 
-            public void Remove(Node node)
+            public void Remove(Node node) // O(1)
             {
                 if (node != Head)
                     node.Prev.Next = node.Next;
@@ -122,7 +139,7 @@ namespace Spojovy_seznam
                     Tail = node.Prev;
             }
 
-            public void Insert(Node node, Node prevNode)
+            public void Insert(Node node, Node prevNode) // O(1)
             {
                 node.Prev = prevNode;
                 node.Next = prevNode.Next;
@@ -167,9 +184,98 @@ namespace Spojovy_seznam
                 }
             }
 
-            public void DestructivePenetration(LinkedList list2)
+            public void DestructivePenetration(LinkedList list2) // O(n^2)
             {
+                if (Head == null | list2.Head == null)
+                {
+                    Head = null;
+                    return;
+                }
 
+                Node node1 = Head;
+                while (node1 != null)
+                {
+                    bool IsSame = false;
+
+                    Node node3 = node1.Next;
+                    while (node3 != null)
+                    {
+                        if (node3.Value == node1.Value)
+                        {
+                            Remove(node3);
+                        }
+                        node3 = node3.Next;
+                    }
+
+                    Node node2 = list2.Head;
+                    while(node2 != null)
+                    {
+                        if (node2.Value == node1.Value)
+                        {
+                            IsSame = true;
+                        }
+                        node2 = node2.Next;
+                    }
+                    if (!IsSame)
+                    {
+                        Remove(node1);
+                    }
+                    node1 = node1.Next;
+                }
+            }
+
+            public void DestructiveUnification(LinkedList list2) // O(n^2)
+            {
+                bool NullList = false;
+                if (Head == null)
+                {
+                    Head = list2.Head;
+                    NullList = true;
+                }
+
+                if (list2.Head == null)
+                {
+                    NullList = true;
+                }
+
+
+                Node node1 = Head;
+                while (node1 != null)
+                {
+                    Node node3 = node1.Next;
+                    while (node3 != null)
+                    {
+                        if (node3.Value == node1.Value)
+                        {
+                            Remove(node3);
+                        }
+                        node3 = node3.Next;
+                    }
+                    node1 = node1.Next;
+                }
+
+                if (NullList)
+                    return;
+
+
+                Node node2 = list2.Head;
+                while (node2 != null)
+                {
+                    bool IsInList = false;
+                    node1 = Head;
+                    while (node1 != null)
+                    {
+                        if (node2.Value == node1.Value)
+                        {
+                            IsInList = true;
+                        }
+                        node1 = node1.Next;
+                    }
+                    if (!IsInList)
+                        Add(node2.Value);
+
+                    node2 = node2.Next;
+                }
             }
         }
     }
