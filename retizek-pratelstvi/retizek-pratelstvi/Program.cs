@@ -12,7 +12,29 @@ namespace retizek_pratelstvi
     {
         static void Main(string[] args)
         {
+            int pocet_lidi = Convert.ToInt32(Console.ReadLine());
 
+            string[] vsechny_dcojice = Console.ReadLine().Split();
+
+            string[] zacatek_a_konec = Console.ReadLine().Split();
+
+            int zacatek = Convert.ToInt32(zacatek_a_konec[0]) - 1;
+
+            int konec = Convert.ToInt32(zacatek_a_konec[1]) - 1;
+
+            bool[,] pratelstvi = new bool[pocet_lidi, pocet_lidi];
+
+            for (int i = 0; i < vsechny_dcojice.Length; i++)
+            {
+                string[] dvojice = vsechny_dcojice[i].Split('-');
+
+                pratelstvi[Convert.ToInt32(dvojice[0]) - 1, Convert.ToInt32(dvojice[1]) - 1] = true;
+
+                pratelstvi[Convert.ToInt32(dvojice[1]) - 1, Convert.ToInt32(dvojice[0]) - 1] = true;
+            }
+
+            BFS(pratelstvi, zacatek, konec);
+            Console.ReadLine();
         }
 
         static void BFS(bool[,] pratelstvi, int zacatek, int konec)
@@ -52,12 +74,31 @@ namespace retizek_pratelstvi
                             stavy[j] = "otevřený";
                             predchudce[j] = clovek;
                             vzdalenost[j] = vzdalenost[clovek] + 1;
-
                         }
                     }                   
                 }
+                stavy[clovek] = "uzavřený";
+            }
+
+            if (stavy[konec] == "uzavřený")
+            {
+                int clovek = konec;
+                List<int> cestaZpet = new List<int>();
+                for (int j = 0;j < vzdalenost[konec]; j++)
+                {
+                    cestaZpet.Add(clovek);
+                    clovek = predchudce[clovek];
+                }
+
+                cestaZpet.Reverse();
+                Console.WriteLine(string.Join(" ", cestaZpet));
 
             }
+            else
+            {
+                Console.WriteLine("neexistuje");
+            }
+
         }
     }
 }
