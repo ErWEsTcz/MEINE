@@ -20,16 +20,27 @@ namespace Postfix_Vyrazy
     {
         public void Main()
         {
+            Console.WriteLine("Chcete vyhodnotit prefix nebo postfix?");
+            string fix = Console.ReadLine();
+            Console.WriteLine("Zadejte výraz");
             string[] vyraz = Console.ReadLine().Split(' ');
             //Console.WriteLine(vyraz[1]);
-            Postfix(vyraz);
+            if (fix == "prefix")
+            {
+                Array.Reverse(vyraz);
+                Postfix(vyraz, fix);
+            }
 
+            else if (fix == "postfix")
+            {
+                Postfix(vyraz, fix);
+            }
 
             Console.ReadLine();
 
         }
 
-        static void Postfix(string[] vyraz)
+        static void Postfix(string[] vyraz, string fix)
         {
             Stack<float> ZasobnikCisel = new Stack<float>();
 
@@ -52,25 +63,50 @@ namespace Postfix_Vyrazy
                             ZasobnikCisel.Push(ZasobnikCisel.Pop()+ZasobnikCisel.Pop());
                             break;
                         case '-':
-                            float mensitel = ZasobnikCisel.Pop();
-                            float mensenec = ZasobnikCisel.Pop();
-                            ZasobnikCisel.Push(mensenec - mensitel);
-                            break;
+                            if (fix == "prefix")
+                            {
+                                float mensenec = ZasobnikCisel.Pop();
+                                float mensitel = ZasobnikCisel.Pop();
+                                ZasobnikCisel.Push(mensenec - mensitel);
+                                break;
+                            }
+                            else
+                            {
+                                float mensitel = ZasobnikCisel.Pop();
+                                float mensenec = ZasobnikCisel.Pop();
+                                ZasobnikCisel.Push(mensenec - mensitel);
+                                break;
+                            }
                         case '*':
                             ZasobnikCisel.Push(ZasobnikCisel.Pop()*ZasobnikCisel.Pop());
                             break;
                         case '/':
                             try
                             {
-                                float delitel = ZasobnikCisel.Pop();
-                                float delenec = ZasobnikCisel.Pop();
-                                ZasobnikCisel.Push(delenec / delitel);
-                                if (delitel == 0)
+                                if (fix == "prefix")
                                 {
-                                    Console.WriteLine("Neděl nulou nulo!");
-                                    return;
+                                    float delenec = ZasobnikCisel.Pop();
+                                    float delitel = ZasobnikCisel.Pop();
+                                    ZasobnikCisel.Push(delenec / delitel);
+                                    if (delitel == 0)
+                                    {
+                                        Console.WriteLine("Neděl nulou nulo!");
+                                        return;
+                                    }
+                                    break;
                                 }
-                                break;
+                                else
+                                {
+                                    float delitel = ZasobnikCisel.Pop();
+                                    float delenec = ZasobnikCisel.Pop();
+                                    ZasobnikCisel.Push(delenec / delitel);
+                                    if (delitel == 0)
+                                    {
+                                        Console.WriteLine("Neděl nulou nulo!");
+                                        return;
+                                    }
+                                    break;
+                                }
                             }
                             catch
                             {
