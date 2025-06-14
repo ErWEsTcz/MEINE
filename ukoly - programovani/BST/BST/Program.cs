@@ -45,7 +45,12 @@ namespace BST
 
             tree.Insert(Tichota.Id, Tichota);
 
+            Console.WriteLine(tree.Find(420));
 
+            for (int i = 0; i < 422; i += 2)
+            {
+                tree.Remove(i);
+            }
 
             Console.WriteLine(tree.Show());
 
@@ -191,6 +196,58 @@ namespace BST
             return;
 
         }
+
+        public void Remove(int key)
+        {
+            Node<T> _remove(Node<T> node, int key2)
+            {
+                if (node == null)
+                {
+                    return null;
+                }
+
+                if (key2 < node.Key)
+                {
+                    node.LeftSon = _remove(node.LeftSon, key2);
+                }
+                else if (key2 > node.Key)
+                {
+                    node.RightSon = _remove(node.RightSon, key2);
+                }
+                else
+                {
+                    if (node.LeftSon == null && node.RightSon == null)
+                    {
+                        return null;
+                    }
+                    if (node.LeftSon == null)
+                    {
+                        return node.RightSon;
+                    }
+                    if (node.RightSon == null)
+                    {
+                        return node.LeftSon;
+                    }
+
+                    Node<T> minRight = _findMin(node.RightSon);
+                    node.Key = minRight.Key;
+                    node.Value = minRight.Value;
+                    node.RightSon = _remove(node.RightSon, minRight.Key);
+                }
+
+                return node;
+            }
+
+            Node<T> _findMin(Node<T> node)
+            {
+                while (node.LeftSon != null)
+                    node = node.LeftSon;
+                return node;
+            }
+
+            Root = _remove(Root, key);
+        }
+
     }
     class Student
     {
