@@ -12,7 +12,7 @@ namespace Abecedni_usporadani
         {
             string[] vztahy = Console.ReadLine().Split(' ');
 
-            Console.WriteLine(vztahy[1][2]);
+            Console.WriteLine(vztahy[1]);
             
             Console.ReadLine();
 
