@@ -1,0 +1,7 @@
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\bin\Debug\FilmyHodnoceni.exe.config
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\bin\Debug\FilmyHodnoceni.exe
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\bin\Debug\FilmyHodnoceni.pdb
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\obj\Debug\FilmyHodnoceni.csproj.AssemblyReference.cache
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\obj\Debug\FilmyHodnoceni.csproj.CoreCompileInputs.cache
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\obj\Debug\FilmyHodnoceni.exe
+O:\8.M\FilmyHodnoceni\FilmyHodnoceni\obj\Debug\FilmyHodnoceni.pdb
