@@ -1,0 +1,7 @@
+O:\8.M\Beast\Beast\obj\Debug\Beast.csproj.AssemblyReference.cache
+O:\8.M\Beast\Beast\obj\Debug\Beast.csproj.CoreCompileInputs.cache
+O:\8.M\Beast\Beast\bin\Debug\Beast.exe.config
+O:\8.M\Beast\Beast\bin\Debug\Beast.exe
+O:\8.M\Beast\Beast\bin\Debug\Beast.pdb
+O:\8.M\Beast\Beast\obj\Debug\Beast.exe
+O:\8.M\Beast\Beast\obj\Debug\Beast.pdb
