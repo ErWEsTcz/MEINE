@@ -5,3 +5,10 @@ O:\8.M\Beast\Beast\bin\Debug\Beast.exe
 O:\8.M\Beast\Beast\bin\Debug\Beast.pdb
 O:\8.M\Beast\Beast\obj\Debug\Beast.exe
 O:\8.M\Beast\Beast\obj\Debug\Beast.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\bin\Debug\Beast.exe.config
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\bin\Debug\Beast.exe
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\bin\Debug\Beast.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\obj\Debug\Beast.csproj.AssemblyReference.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\obj\Debug\Beast.csproj.CoreCompileInputs.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\obj\Debug\Beast.exe
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Beast\Beast\obj\Debug\Beast.pdb

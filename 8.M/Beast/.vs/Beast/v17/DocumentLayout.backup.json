@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\8.M\\Beast\\",
+  "WorkspaceRootPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\Beast\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BD2C0946-D84E-4AFB-BB00-9C960A8EAB09}|Beast\\Beast.csproj|o:\\8.m\\beast\\beast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD2C0946-D84E-4AFB-BB00-9C960A8EAB09}|Beast\\Beast.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\beast\\beast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD2C0946-D84E-4AFB-BB00-9C960A8EAB09}|Beast\\Beast.csproj|solutionrelative:beast\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "O:\\8.M\\Beast\\Beast\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\Beast\\Beast\\Program.cs",
               "RelativeDocumentMoniker": "Beast\\Program.cs",
-              "ToolTip": "O:\\8.M\\Beast\\Beast\\Program.cs",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\Beast\\Beast\\Program.cs",
               "RelativeToolTip": "Beast\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwCoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-15T06:34:12.671Z",
               "EditorCaption": ""
