@@ -1,0 +1,7 @@
+O:\8.M\VztahyLOL\VztahyLOL\bin\Debug\VztahyLOL.exe.config
+O:\8.M\VztahyLOL\VztahyLOL\bin\Debug\VztahyLOL.exe
+O:\8.M\VztahyLOL\VztahyLOL\bin\Debug\VztahyLOL.pdb
+O:\8.M\VztahyLOL\VztahyLOL\obj\Debug\VztahyLOL.csproj.AssemblyReference.cache
+O:\8.M\VztahyLOL\VztahyLOL\obj\Debug\VztahyLOL.csproj.CoreCompileInputs.cache
+O:\8.M\VztahyLOL\VztahyLOL\obj\Debug\VztahyLOL.exe
+O:\8.M\VztahyLOL\VztahyLOL\obj\Debug\VztahyLOL.pdb
