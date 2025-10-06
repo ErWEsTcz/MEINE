@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\UspornaNavigace\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A21B24B3-E3AB-4917-A1FB-7E3210256688}|UspornaNavigace\\UspornaNavigace.csproj|o:\\github\\meine\\8.m\\uspornanavigace\\uspornanavigace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A21B24B3-E3AB-4917-A1FB-7E3210256688}|UspornaNavigace\\UspornaNavigace.csproj|solutionrelative:uspornanavigace\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\UspornaNavigace\\UspornaNavigace\\Program.cs",
+              "RelativeDocumentMoniker": "UspornaNavigace\\Program.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\UspornaNavigace\\UspornaNavigace\\Program.cs",
+              "RelativeToolTip": "UspornaNavigace\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T06:18:53.106Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

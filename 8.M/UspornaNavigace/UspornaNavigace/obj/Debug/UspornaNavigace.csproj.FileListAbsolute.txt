@@ -1,0 +1,7 @@
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\bin\Debug\UspornaNavigace.exe.config
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\bin\Debug\UspornaNavigace.exe
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\bin\Debug\UspornaNavigace.pdb
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\obj\Debug\UspornaNavigace.csproj.AssemblyReference.cache
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\obj\Debug\UspornaNavigace.csproj.CoreCompileInputs.cache
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\obj\Debug\UspornaNavigace.exe
+O:\github\MEINE\8.M\UspornaNavigace\UspornaNavigace\obj\Debug\UspornaNavigace.pdb
