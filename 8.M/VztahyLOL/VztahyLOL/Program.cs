@@ -10,9 +10,15 @@ namespace VztahyLOL
     {
         static void Main(string[] args)
         {
-            Vztahy kekw = new Vztahy(4);
+            Console.WriteLine("zadejte pocet muzu/zen");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Vztahy kekw = new Vztahy(n);
+            int[] manzelstvi = kekw.VytvoreniStability();
             Console.WriteLine();
-            kekw.Print();
+            for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(manzelstvi[i]);
+            }
             Console.ReadLine();
         }
     }
@@ -30,7 +36,6 @@ namespace VztahyLOL
         int[,] PreferenceMuzu { get; set; }
         int[,] PreferenceZen { get; set; }
         bool[,] AktualniStav {  get; set; }
-
 
 
         public void PrecteniPreferenci()
@@ -60,23 +65,58 @@ namespace VztahyLOL
 
         public int[] VytvoreniStability()
         {
-            int[] vysledek = new int[PocetLidi];
+            int[] manzelstvi = new int[PocetLidi];
+            int[] pocetManzelstvi = new int[PocetLidi];
+            int[] spokojenostMuzu = new int[PocetLidi];
+            int hledanyMuz;
+            int hodnostZeny = 0;
+
+            for (int i = 0; i < PocetLidi; i++)
+            {
+                manzelstvi[i] = -1;
+                spokojenostMuzu[i] = -1;
+            }
+
             bool zmena = true;
 
-            for (int i = 0;i < PocetLidi; i++)
+            while (zmena == true)
             {
-                AktualniStav[i, PreferenceZen[i, 0] - 1] = true;
-            }
+                zmena = false;
+                for (int i = 0;i < PocetLidi; i++)
+                {
+                    hledanyMuz = PreferenceZen[i, pocetManzelstvi[i]] - 1;
+                    if (manzelstvi[i] == -1)
+                    {
+                        for (int j = 0; j < PocetLidi; j++)
+                        {
+                            if (i == PreferenceMuzu[hledanyMuz,j] - 1)
+                            {
+                                hodnostZeny = j; break;
+                            }
+                        }
 
-            while(zmena == true)
+                        if (hodnostZeny < spokojenostMuzu[hledanyMuz] || spokojenostMuzu[hledanyMuz] == -1)
+                        {
+                            if (Array.IndexOf(manzelstvi, hledanyMuz) != -1)
+                            {
+                                manzelstvi[Array.IndexOf(manzelstvi, hledanyMuz)] = -1;
+                            }
+                            manzelstvi[i] = hledanyMuz;
+                            spokojenostMuzu[hledanyMuz] = hodnostZeny;
+                            
+                        }
+
+
+                        pocetManzelstvi[i]++;
+                        zmena = true;
+                    }
+                }
+            }
+            for (int i = 0; i < PocetLidi; i++)
             {
-
+                manzelstvi[i]++;
             }
-
-
-
-
-            return vysledek;
+            return manzelstvi;
         }
 
         public void Print()
