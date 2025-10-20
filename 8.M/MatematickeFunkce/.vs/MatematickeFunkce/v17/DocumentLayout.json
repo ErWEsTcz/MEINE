@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\8.M\\MatematickeFunkce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D135A7C0-B136-4186-8C54-170ECD40B687}|MatematickeFunkce\\MatematickeFunkce.csproj|o:\\8.m\\matematickefunkce\\matematickefunkce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D135A7C0-B136-4186-8C54-170ECD40B687}|MatematickeFunkce\\MatematickeFunkce.csproj|solutionrelative:matematickefunkce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\8.M\\MatematickeFunkce\\MatematickeFunkce\\Program.cs",
+              "RelativeDocumentMoniker": "MatematickeFunkce\\Program.cs",
+              "ToolTip": "O:\\8.M\\MatematickeFunkce\\MatematickeFunkce\\Program.cs",
+              "RelativeToolTip": "MatematickeFunkce\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T06:49:46.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
