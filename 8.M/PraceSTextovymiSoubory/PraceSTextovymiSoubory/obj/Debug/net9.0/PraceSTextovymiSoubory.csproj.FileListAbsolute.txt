@@ -1,0 +1,15 @@
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.exe
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.deps.json
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.runtimeconfig.json
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.dll
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\bin\Debug\net9.0\PraceSTextovymiSoubory.pdb
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.GeneratedMSBuildEditorConfig.editorconfig
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.AssemblyInfoInputs.cache
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.AssemblyInfo.cs
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.csproj.CoreCompileInputs.cache
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.sourcelink.json
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.dll
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\refint\PraceSTextovymiSoubory.dll
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.pdb
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\PraceSTextovymiSoubory.genruntimeconfig.cache
+O:\github\MEINE\8.M\PraceSTextovymiSoubory\PraceSTextovymiSoubory\obj\Debug\net9.0\ref\PraceSTextovymiSoubory.dll
