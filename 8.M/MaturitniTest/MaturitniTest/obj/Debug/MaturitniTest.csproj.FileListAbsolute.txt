@@ -1,0 +1,8 @@
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\bin\Debug\MaturitniTest.exe.config
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\bin\Debug\MaturitniTest.exe
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\bin\Debug\MaturitniTest.pdb
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\obj\Debug\MaturitniTest.csproj.AssemblyReference.cache
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\obj\Debug\MaturitniTest.csproj.CoreCompileInputs.cache
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\obj\Debug\MaturitniTest.exe
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\obj\Debug\MaturitniTest.pdb
+O:\github\MEINE\8.M\MaturitniTest\MaturitniTest\obj\Debug\MaturitniTest.exe.config
