@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\PraceSTextovymiSoubory\\",
+  "WorkspaceRootPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\PraceSTextovymiSoubory\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74580779-F1E9-4698-8C98-87C87B72F322}|PraceSTextovymiSoubory\\PraceSTextovymiSoubory.csproj|o:\\github\\meine\\8.m\\pracestextovymisoubory\\pracestextovymisoubory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74580779-F1E9-4698-8C98-87C87B72F322}|PraceSTextovymiSoubory\\PraceSTextovymiSoubory.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\pracestextovymisoubory\\pracestextovymisoubory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74580779-F1E9-4698-8C98-87C87B72F322}|PraceSTextovymiSoubory\\PraceSTextovymiSoubory.csproj|solutionrelative:pracestextovymisoubory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,21 +14,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\PraceSTextovymiSoubory\\PraceSTextovymiSoubory\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\PraceSTextovymiSoubory\\PraceSTextovymiSoubory\\Program.cs",
               "RelativeDocumentMoniker": "PraceSTextovymiSoubory\\Program.cs",
-              "ToolTip": "O:\\github\\MEINE\\8.M\\PraceSTextovymiSoubory\\PraceSTextovymiSoubory\\Program.cs",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\PraceSTextovymiSoubory\\PraceSTextovymiSoubory\\Program.cs",
               "RelativeToolTip": "PraceSTextovymiSoubory\\Program.cs",
-              "ViewState": "AgIAAKgAAAAAAAAAAAAAALEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAABgBAAAAAAAAAAAawCQBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-01T07:16:30.704Z",
               "EditorCaption": ""

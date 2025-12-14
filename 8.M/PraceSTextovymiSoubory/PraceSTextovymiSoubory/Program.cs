@@ -1,4 +1,7 @@
-﻿using System.IO;
+﻿using System.Globalization;
+using System.IO;
+using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace PraceSTextovymiSoubory
 {
@@ -6,8 +9,8 @@ namespace PraceSTextovymiSoubory
     {
         static void Main(string[] args)
         {
-            /*/ // <-- stačí když jednu ze dvou * smažete a celá studijní část se zakomentuje (a naopak)
             #region Studijní část
+            /*/ // <-- stačí když jednu ze dvou * smažete a celá studijní část se zakomentuje (a naopak)
             // 1. OTEVŘENÍ SOUBORU
             // 1.1 Adresa k souboru (File PATH):
             //  - RELATIVNÍ vzhledem k EXE souboru (ve složce ...\Váš projekt\bin\Debug\netX.Y\)
@@ -89,8 +92,8 @@ namespace PraceSTextovymiSoubory
             {
                 Console.WriteLine("Nastala nějaká chyba");
             }
-            #endregion
             /**/
+            #endregion
 
             #region Praktická část
             // Následující úkoly vyřešte pomocí programování. Metodu "kouknu a vidim" si nechte pro kontrolu.
@@ -154,6 +157,8 @@ namespace PraceSTextovymiSoubory
             // (10b) 2. Jaký je počet znaků v souboru 1.txt, když pomineme bílé znaky?
             // Tip: Struktura Char má statickou funkci IsWhiteSpace().
 
+            // 10
+
             int pocetZnaku2 = 0;
 
             using (StreamReader sr = new StreamReader(@"vstupni_soubory\1.txt"))
@@ -173,7 +178,6 @@ namespace PraceSTextovymiSoubory
 
             Console.WriteLine(pocetZnaku2);
 
-            //
             using (StreamWriter sw = new StreamWriter(@"vstupni_soubory\4.txt"))
             {
                 sw.WriteLine("1");
@@ -185,34 +189,133 @@ namespace PraceSTextovymiSoubory
                 sw.Write("1\n2\n3");
             }
             // (5b) 3. Jaké znaky (vypište jako integery) jsou použity pro oddělení řádků v souboru 3.txt?
+
+            // 13 a 10
+
             // Porovnejte s 4.txt a 5.txt.
+
+            // v 4.txt jsou take 13 a 10, v 5.txt jen 10
+            // 10 - Line Feed
+            // 13 - Carriage Return
+
             // Jakým znakům odpovídají v ASCII tabulce? https://www.ascii-code.com/
             // Zde se stačí podívat do VS Code a napsat sem odpověď, není potřeba nic programovat.
-
-            //
 
 
 
             // (10b) 4. Kolik slov má soubor 6.txt?
             // Za slovo teď považujme neprázdnou souvislou posloupnost nebílých znaků oddělené bílými.
             // Tip: Split defaultně odděluje na základě libovolných bílých znaků, ale je tam jeden háček.. jaký?
+
+            // split oddeluje podle bilych znaku, problem nastava kdyz jsou treba dva vedle sebe a split pak oddeluje pomoci obou a vznikne prazdny retezec
+
             // V souboru je vidět 52 slov.
-            
+
+            using (StreamReader sr = new StreamReader(@"vstupni_soubory\6.txt"))
+            {
+                bool Minuly = false;
+                int pocetSlov = 0;
+
+                while (true)
+                {
+                    char znak = (char)sr.Read();
+                    if (znak == 65535) // -1 (konec souboru)
+                        break;
+
+                    if (Char.IsWhiteSpace(znak))
+                    {
+                        if(Minuly == true)
+                        {
+                            pocetSlov++;
+                        }
+                        Minuly = false;
+                    }
+                    else
+                    {
+                        Minuly = true;
+                    }
+                }
+
+                Console.WriteLine(pocetSlov); // 52
+            }
+
+
 
 
             // (15b) 5. Zapište do souboru 7.txt slovo "řeřicha". Povedlo se? 
             // Vypište obsah souboru do konzole. V čem je u konzole problém a jak ho spravit?
+
+            //program vypisuje řeřicha bez problemů
+
             // Jaké kódování používá C#? Kolik bytů na znak?
+
+            // UTF-16 - pro bezne znaky 2 byty, pro specialni 4 byty
+
+            File.WriteAllText(@"vstupni_soubory\7.txt", "řeřicha");
+            Console.WriteLine(File.ReadAllText(@"vstupni_soubory\7.txt"));
+
 
 
 
             // (25b) 6. Vypište četnosti jednotlivých slov v souboru 8.txt do souboru 9.txt ve formátu slovo:četnost na samostatný řádek.
             // Tentokrát však slova nejprve očištěte od diakritiky a všechna písmena berte jako malá (tak je i ukládejte do slovníku).
             // Tip: Využijte slovník: Dictionary<string, int> slova = new Dictionary<string, int>();
-            
 
+            Dictionary<string, int> slova = new Dictionary<string, int>();
+
+            string text = File.ReadAllText(@"vstupni_soubory\8.txt");
+
+            string[] rozdelenaSlova = text.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries);
+
+            foreach (string rozdeleneslovo in rozdelenaSlova)
+            {
+                string slovoBezInterpunkce = rozdeleneslovo.TrimEnd('.', ',', '?');
+
+                string slovoMalaPismena = slovoBezInterpunkce.ToLower();
+
+                string slovoRozdelenaDiakritika = slovoMalaPismena.Normalize(NormalizationForm.FormD);
+
+                StringBuilder sb = new StringBuilder();
+                foreach (char znak in slovoRozdelenaDiakritika)
+                {
+                    if (CharUnicodeInfo.GetUnicodeCategory(znak) != UnicodeCategory.NonSpacingMark)
+                        sb.Append(znak);
+                }
+
+                string cisteSlovo = new string(sb.ToString().Where(char.IsLetterOrDigit).ToArray());
+
+                if (slova.ContainsKey(cisteSlovo))
+                    slova[cisteSlovo]++;
+
+                else
+                    slova.Add(cisteSlovo, 1);
+            }
+
+            using (StreamWriter sw = new StreamWriter(@"vstupni_soubory\9.txt"))
+            {
+                foreach (var slovo in slova)
+                {
+                    sw.WriteLine($"{slovo.Key}:{slovo.Value}");
+                }
+            }
 
             // (+15b) Bonus: Vypište četnosti jednotlivých znaků abecedy (malá a velká písmena) v souboru 8.txt do konzole.
+
+            Dictionary<char, int> Znaky = new Dictionary<char, int>();
+
+            foreach (char znak in text)
+            {
+                if (char.IsLetter(znak))
+                {
+                    if (Znaky.ContainsKey(znak))
+                        Znaky[znak]++;
+                    else
+                        Znaky.Add(znak, 1);
+                }
+            }
+
+            foreach (var znak in Znaky)
+                Console.WriteLine($"Znak '{znak.Key}': {znak.Value}");
 
             #endregion
         }
