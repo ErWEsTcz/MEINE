@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\RGB_michatko\\",
+  "WorkspaceRootPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\RGB_michatko\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|o:\\github\\meine\\8.m\\rgb_michatko\\rgb_michatko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\rgb_michatko\\rgb_michatko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|solutionrelative:rgb_michatko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|o:\\github\\meine\\8.m\\rgb_michatko\\rgb_michatko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\rgb_michatko\\rgb_michatko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B5A17D93-D6A3-49C9-ADC9-9292FFAAB9DE}|RGB_michatko\\RGB_michatko.csproj|solutionrelative:rgb_michatko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RGB_michatko\\MainWindow.xaml",
-              "ToolTip": "O:\\github\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml",
               "RelativeToolTip": "RGB_michatko\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-05T07:42:46.787Z",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RGB_michatko\\MainWindow.xaml.cs",
-              "ToolTip": "O:\\github\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\RGB_michatko\\RGB_michatko\\MainWindow.xaml.cs",
               "RelativeToolTip": "RGB_michatko\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T07:42:43.929Z",
               "EditorCaption": ""

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj": {}
+    "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj": {}
   },
   "projects": {
-    "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj": {
+    "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj",
+        "projectUniqueName": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj",
         "projectName": "WPF_uvod",
-        "projectPath": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj",
-        "packagesPath": "C:\\Users\\nezbeda\\.nuget\\packages\\",
-        "outputPath": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\obj\\",
+        "projectPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\WPF_uvod.csproj",
+        "packagesPath": "C:\\Users\\Vojta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nezbeda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vojta\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -68,7 +68,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

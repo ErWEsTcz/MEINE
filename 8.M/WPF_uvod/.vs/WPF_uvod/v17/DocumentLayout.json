@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\WPF_uvod\\",
+  "WorkspaceRootPath": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|o:\\github\\meine\\8.m\\wpf_uvod\\wpf_uvod\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\wpf_uvod\\wpf_uvod\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|solutionrelative:wpf_uvod\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|o:\\github\\meine\\8.m\\wpf_uvod\\wpf_uvod\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|c:\\users\\vojta\\desktop\\skola\\programovani\\github\\meine\\8.m\\wpf_uvod\\wpf_uvod\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EA65A07-9352-4322-9D66-D8107C5275C3}|WPF_uvod\\WPF_uvod.csproj|solutionrelative:wpf_uvod\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WPF_uvod\\MainWindow.xaml",
-              "ToolTip": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml",
               "RelativeToolTip": "WPF_uvod\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-01-05T07:18:20.322Z",
@@ -36,11 +36,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WPF_uvod\\MainWindow.xaml.cs",
-              "ToolTip": "O:\\github\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Vojta\\Desktop\\skola\\programovani\\GitHub\\MEINE\\8.M\\WPF_uvod\\WPF_uvod\\MainWindow.xaml.cs",
               "RelativeToolTip": "WPF_uvod\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-05T07:18:17.14Z",
               "EditorCaption": ""

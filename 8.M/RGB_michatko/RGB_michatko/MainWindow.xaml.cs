@@ -32,7 +32,7 @@ namespace RGB_michatko
                 }
                 catch
                 {
-                    MessageBox.Show("Kriple");
+                    MessageBox.Show("Co děláš ????");
                 }
             }
         }
@@ -42,13 +42,62 @@ namespace RGB_michatko
             ModryText.Text = Convert.ToString(ModrePosouvatko.Value);
         }
 
+        private void ZelenePosouvatko_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            ZelenyText.Text = Convert.ToString(ZelenePosouvatko.Value);
+        }
+
+        private void ZelenyText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (ZelenyText.Text != string.Empty)
+            {
+                try
+                {
+                    ZelenePosouvatko.Value = Convert.ToDouble(ZelenyText.Text);
+                    ZmenaBarvy();
+                }
+                catch
+                {
+                    MessageBox.Show("Co děláš ????");
+                }
+            }
+        }
+
+        private void CervenePosouvatko_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            CervenyText.Text = Convert.ToString(CervenePosouvatko.Value);
+        }
+
+        private void CervenyText_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (CervenyText.Text != string.Empty)
+            {
+                try
+                {
+                    CervenePosouvatko.Value = Convert.ToDouble(CervenyText.Text);
+                    ZmenaBarvy();
+                }
+                catch
+                {
+                    MessageBox.Show("Co děláš ????");
+                }
+            }
+        }
+
+
         public void ZmenaBarvy()
         {
+            if (HexZapis == null)
+                return;
+
             byte r = Convert.ToByte(CervenePosouvatko.Value);
             byte g = Convert.ToByte(ZelenePosouvatko.Value);
             byte b = Convert.ToByte(ModrePosouvatko.Value);
 
             Obdelnik.Fill = new SolidColorBrush(Color.FromRgb(r, g, b));
+
+            HexZapis.Content = $"#{r:X2}{g:X2}{b:X2}";
         }
+
     }
 }

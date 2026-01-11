@@ -7,17 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Rectangle x:Name="Obdelnik" HorizontalAlignment="Left" Height="372" Margin="46,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="289"/>
+        <Rectangle x:Name="Obdelnik" HorizontalAlignment="Left" Height="334" Margin="46,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="289"/>
         <Label Content="RGB míchátko" HorizontalAlignment="Left" Margin="400,31,0,0" VerticalAlignment="Top" FontSize="36" FontWeight="Bold"/>
         <Label Content="Red" HorizontalAlignment="Left" Margin="400,130,0,0" VerticalAlignment="Top" Background="Red" FontSize="14" Width="50" Height="30"/>
         <Label Content="Green" HorizontalAlignment="Left" Margin="400,230,0,0" VerticalAlignment="Top" Background="Lime" FontSize="14" Width="50" Height="30"/>
         <Label Content="Blue" HorizontalAlignment="Left" Margin="400,330,0,0" VerticalAlignment="Top" Background="Blue" FontSize="14" Width="50" Height="30"/>
         <Slider x:Name="ModrePosouvatko" HorizontalAlignment="Left" Margin="400,380,0,0" VerticalAlignment="Top" Width="225" SmallChange="1" Maximum="255" ValueChanged="ModrePosouvatko_ValueChanged"/>
-        <Slider x:Name="ZelenePosouvatko" HorizontalAlignment="Left" Margin="400,280,0,0" VerticalAlignment="Top" Width="225"/>
-        <Slider x:Name="CervenePosouvatko" HorizontalAlignment="Left" Margin="400,180,0,0" VerticalAlignment="Top" Width="225" Maximum="255" AutoToolTipPlacement="TopLeft" SmallChange="1"/>
-        <TextBox x:Name="CervenyText" HorizontalAlignment="Left" Margin="464,136,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75" Height="20" FontWeight="Bold"/>
-        <TextBox x:Name="ZelenyText" HorizontalAlignment="Left" Margin="464,235,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="75" Height="20" FontWeight="Bold"/>
+        <Slider x:Name="ZelenePosouvatko" HorizontalAlignment="Left" Margin="400,280,0,0" VerticalAlignment="Top" Width="225" ValueChanged="ZelenePosouvatko_ValueChanged" Maximum="225" SmallChange="1"/>
+        <Slider x:Name="CervenePosouvatko" HorizontalAlignment="Left" Margin="400,180,0,0" VerticalAlignment="Top" Width="225" Maximum="255" SmallChange="1" ValueChanged="CervenePosouvatko_ValueChanged"/>
+        <TextBox x:Name="CervenyText" HorizontalAlignment="Left" Margin="464,136,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Height="20" FontWeight="Bold" TextChanged="CervenyText_TextChanged"/>
+        <TextBox x:Name="ZelenyText" HorizontalAlignment="Left" Margin="464,235,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Height="20" FontWeight="Bold" TextChanged="ZelenyText_TextChanged"/>
         <TextBox x:Name="ModryText" HorizontalAlignment="Left" Margin="464,335,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="75" Height="20" FontWeight="Bold" TextChanged="ModryText_TextChanged"/>
+        <Label x:Name="HexZapis" Content="#" HorizontalAlignment="Left" Margin="144,389,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.379,0.084" Width="94"/>
 
     </Grid>
 </Window>
