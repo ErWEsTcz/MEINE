@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\Malovatko\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|o:\\github\\meine\\8.m\\malovatko\\malovatko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|solutionrelative:malovatko\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|o:\\github\\meine\\8.m\\malovatko\\malovatko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|solutionrelative:malovatko\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|o:\\github\\meine\\8.m\\malovatko\\malovatko\\rgbcolorpicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|solutionrelative:malovatko\\rgbcolorpicker.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|o:\\github\\meine\\8.m\\malovatko\\malovatko\\rgbcolorpicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E5D6F98-6CE0-4B69-8778-D317465F4469}|Malovatko\\Malovatko.csproj|solutionrelative:malovatko\\rgbcolorpicker.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Malovatko\\MainWindow.xaml",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\MainWindow.xaml",
+              "RelativeToolTip": "Malovatko\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-12T07:17:30.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Malovatko\\MainWindow.xaml.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Malovatko\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:17:27.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RGBColorPicker.xaml",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\RGBColorPicker.xaml",
+              "RelativeDocumentMoniker": "Malovatko\\RGBColorPicker.xaml",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\RGBColorPicker.xaml",
+              "RelativeToolTip": "Malovatko\\RGBColorPicker.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-12T07:57:11.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RGBColorPicker.xaml.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\RGBColorPicker.xaml.cs",
+              "RelativeDocumentMoniker": "Malovatko\\RGBColorPicker.xaml.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\RGBColorPicker.xaml.cs",
+              "RelativeToolTip": "Malovatko\\RGBColorPicker.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T07:56:57.838Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
