@@ -1,0 +1,8 @@
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\bin\Debug\TwoBeasts.exe.config
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\bin\Debug\TwoBeasts.exe
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\bin\Debug\TwoBeasts.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\obj\Debug\TwoBeasts.csproj.AssemblyReference.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\obj\Debug\TwoBeasts.csproj.CoreCompileInputs.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\obj\Debug\TwoBeasts.exe
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\obj\Debug\TwoBeasts.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\TwoBeasts\TwoBeasts\obj\Debug\TwoBeasts.exe.config

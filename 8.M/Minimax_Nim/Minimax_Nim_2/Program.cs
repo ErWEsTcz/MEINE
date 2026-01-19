@@ -8,7 +8,7 @@ namespace MiniMax_Nim_2
     {
         static void Main(string[] args)
         {
-            var initialPiles = new List<int> { 2, 2 };
+            var initialPiles = new List<int> { 2, 2, 2, 2 };
             bool botStarts = true;
 
             var game = new NimGame(initialPiles, botStarts);
@@ -106,39 +106,89 @@ namespace MiniMax_Nim_2
                 return GameState.Ongoing;
         }
 
-        private List<Tuple<int, byte>> PossibleMoves(List<int> piles)
-        {
-            foreach (var pile in piles)
-            {
-
-            }
-        }
-
         private Tuple<int, byte> GetBestBotMove()
         {
-            int bestPile = 0;
+            int bestPile = -1;
             byte matchesToRemove = 1;
 
-            int score = minimax(_state.Piles.ToList(), 10, true);
+            int bestScore = int.MinValue;
+
+            for (int i = 0; i < _state.Piles.Count; i++)
+            {
+                for (int j = 1; j <= _state.Piles[i]; j++)
+                {
+                    var simulatedPiles = new List<int>(_state.Piles);
+                    simulatedPiles[i] -= j;
+
+                    int score = minimax(simulatedPiles, 10, false);
+
+                    if (score > bestScore)
+                    {
+                        bestScore = score;
+                        bestPile = i;
+                        matchesToRemove = (byte)j;
+                    }
+                }
+            }
+
+            if (bestPile == -1)
+            {
+                for (int i = 0; i < _state.Piles.Count; i++)
+                {
+                    if (_state.Piles[i] > 0)
+                    {
+                        bestPile = i;
+                        matchesToRemove = 1;
+                        break;
+                    }
+                }
+            }
 
             int minimax(List<int> piles, int depth, bool maximizingPlayer)
             {
-                // TODO: implementujte :)
-                int nej;
-
-                if (depth == 0 || piles.Sum() == 0)
+                if (piles.Sum() == 0)
                 {
-                    if (maximizingPlayer)
-                        return -1;
-                    else
-                        return 1;
+                    return maximizingPlayer ? 10 : -10;
                 }
+
+                if (depth == 0) return 0;
+
                 if (maximizingPlayer)
                 {
-                    nej = -1;
+                    int maxEval = int.MinValue;
+                    for (int i = 0; i < piles.Count; i++)
+                    {
+                        if (piles[i] == 0) continue;
 
+                        for (int j = 1; j <= piles[i]; j++)
+                        {
+                            var nextPiles = new List<int>(piles);
+                            nextPiles[i] -= j;
+
+                            int eval = minimax(nextPiles, depth - 1, false);
+                            maxEval = Math.Max(maxEval, eval);
+                        }
+                    }
+                    return maxEval;
                 }
+                else
+                {
+                    int minEval = int.MaxValue;
+                    for (int i = 0; i < piles.Count; i++)
+                    {
+                        if (piles[i] == 0) continue;
 
+                        for (int j = 1; j <= piles[i]; j++)
+                        {
+                            var nextPiles = new List<int>(piles);
+                            nextPiles[i] -= j;
+
+                            int eval = minimax(nextPiles, depth - 1, true);
+                            minEval = Math.Min(minEval, eval);
+                        }
+                    }
+                    return minEval;
+                }
             }
 
             return new Tuple<int, byte>(bestPile, matchesToRemove);

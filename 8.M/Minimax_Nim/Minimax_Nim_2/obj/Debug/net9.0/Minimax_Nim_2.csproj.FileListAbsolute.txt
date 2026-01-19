@@ -1,0 +1,15 @@
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.exe
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.deps.json
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.runtimeconfig.json
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.dll
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\bin\Debug\net9.0\Minimax_Nim_2.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.AssemblyInfoInputs.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.AssemblyInfo.cs
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.csproj.CoreCompileInputs.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.sourcelink.json
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.dll
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\refint\Minimax_Nim_2.dll
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.pdb
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\Minimax_Nim_2.genruntimeconfig.cache
+C:\Users\Vojta\Desktop\skola\programovani\GitHub\MEINE\8.M\Minimax_Nim\Minimax_Nim_2\obj\Debug\net9.0\ref\Minimax_Nim_2.dll
