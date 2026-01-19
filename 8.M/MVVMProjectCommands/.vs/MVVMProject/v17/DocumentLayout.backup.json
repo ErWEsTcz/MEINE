@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\mvvm\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\mvvm\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\viewmodel\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\model\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|o:\\github\\meine\\8.m\\mvvmprojectcommands\\mvvmproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0530ADFA-BF14-4B5D-AF71-0B383CB80D58}|MVVMProject\\MVVMProject.csproj|solutionrelative:mvvmproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MVVMProject\\MainWindow.xaml.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MVVMProject\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:21:34.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\Model\\Item.cs",
+              "RelativeDocumentMoniker": "MVVMProject\\Model\\Item.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\Model\\Item.cs",
+              "RelativeToolTip": "MVVMProject\\Model\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T08:04:03.768Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MVVM\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "MVVMProject\\MVVM\\RelayCommand.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MVVM\\RelayCommand.cs",
+              "RelativeToolTip": "MVVMProject\\MVVM\\RelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:52:08.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MVVM\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "MVVMProject\\MVVM\\ViewModelBase.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MVVM\\ViewModelBase.cs",
+              "RelativeToolTip": "MVVMProject\\MVVM\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:52:06.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MVVMProject\\ViewModel\\MainWindowViewModel.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\ViewModel\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MVVMProject\\ViewModel\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:51:57.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MVVMProject\\MainWindow.xaml",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\MVVMProjectCommands\\MVVMProject\\MainWindow.xaml",
+              "RelativeToolTip": "MVVMProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-01-19T07:51:22.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

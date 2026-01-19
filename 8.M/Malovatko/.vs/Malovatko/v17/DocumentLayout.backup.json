@@ -48,10 +48,9 @@
               "RelativeDocumentMoniker": "Malovatko\\MainWindow.xaml.cs",
               "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\MainWindow.xaml.cs",
               "RelativeToolTip": "Malovatko\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAUwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T07:17:27.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T07:17:27.193Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "ToolTip": "O:\\github\\MEINE\\8.M\\Malovatko\\Malovatko\\RGBColorPicker.xaml",
               "RelativeToolTip": "Malovatko\\RGBColorPicker.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-01-12T07:57:11.048Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T07:57:11.048Z"
             },
             {
               "$type": "Document",
@@ -75,8 +73,7 @@
               "RelativeToolTip": "Malovatko\\RGBColorPicker.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T07:56:57.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-12T07:56:57.838Z"
             }
           ]
         }
