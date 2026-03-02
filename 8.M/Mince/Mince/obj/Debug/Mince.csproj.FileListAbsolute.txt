@@ -1,0 +1,8 @@
+O:\github\MEINE\8.M\Mince\Mince\bin\Debug\Mince.exe.config
+O:\github\MEINE\8.M\Mince\Mince\bin\Debug\Mince.exe
+O:\github\MEINE\8.M\Mince\Mince\bin\Debug\Mince.pdb
+O:\github\MEINE\8.M\Mince\Mince\obj\Debug\Mince.csproj.AssemblyReference.cache
+O:\github\MEINE\8.M\Mince\Mince\obj\Debug\Mince.csproj.CoreCompileInputs.cache
+O:\github\MEINE\8.M\Mince\Mince\obj\Debug\Mince.exe
+O:\github\MEINE\8.M\Mince\Mince\obj\Debug\Mince.pdb
+O:\github\MEINE\8.M\Mince\Mince\obj\Debug\Mince.exe.config
