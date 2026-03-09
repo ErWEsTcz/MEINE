@@ -17,6 +17,7 @@ namespace Mince
             int suma = int.Parse(Console.ReadLine());
             Array.Sort(mince);
             Array.Reverse(mince);
+            Console.WriteLine();
             NajdiReseni(mince, suma);
         }
 

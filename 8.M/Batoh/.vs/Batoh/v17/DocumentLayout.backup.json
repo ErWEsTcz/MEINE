@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "O:\\github\\MEINE\\8.M\\Batoh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D383B21-3E08-45B9-AA2E-C9526E2792E7}|Batoh\\Batoh.csproj|o:\\github\\meine\\8.m\\batoh\\batoh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D383B21-3E08-45B9-AA2E-C9526E2792E7}|Batoh\\Batoh.csproj|solutionrelative:batoh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "O:\\github\\MEINE\\8.M\\Batoh\\Batoh\\Program.cs",
+              "RelativeDocumentMoniker": "Batoh\\Program.cs",
+              "ToolTip": "O:\\github\\MEINE\\8.M\\Batoh\\Batoh\\Program.cs",
+              "RelativeToolTip": "Batoh\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T07:59:10.02Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
