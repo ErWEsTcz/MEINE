@@ -7,7 +7,7 @@
     </head>
     <body>
         <button id="darkmodebtn" onclick="darkMode()"><i class="bi bi-moon-fill"></i></button>
-        <form id="form" action="login.php" method="post">   
+        <form id="form" action="register.php" method="post">   
             <!-- action: kam se půjde po sumbit -->
             <!-- method: jakou metodou se budou posílat data (GET x POST) -->         
             <h1>Sign Up</h1>
@@ -27,11 +27,11 @@
             <label for="pwd"><b>Password</b></label>
             <input type="password" id="pwd" placeholder="Enter Password" name="pwd" required>
 
-            <label for="newsletter"><b>Newsletter</b></label><br>
-            <input type="checkbox" id="newsletter" required>
+            <label for="newsletter"><b>Newsletter</b></label>
+            <input type="checkbox" id="newsletter" name="newsletter">
 
             <div class="button-container">
-                <button type="submit" class="signupbtn">Log In</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
                 <!-- Nutné zde dát type="sumbit" jako signál pro vyhodnocení formuláře (pomocí action a method)-->
             </div>
         </form>
